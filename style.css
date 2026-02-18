@@ -1,0 +1,190 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+
+}
+
+.parent{
+   background-color: #f4f4f480; 
+    width:100%;
+    /* height:500px; */
+    display:flex;
+    gap:5.2rem;
+   margin-top:60px;
+   padding:2.5rem 4rem 4rem;
+}
+.child-1{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:3.1rem;
+}
+.child-1 h1{
+    color:rgb(38,38,38);
+    font-family:MADE Okine Sans PERSONAL USE,sans-serif;
+    font-size:2.7rem;
+    line-height:3.4rem;
+}
+.child-1 h2{
+    color: #262626;
+    font-family:Mulish;
+    font-weight:700;
+    font-size:1.4rem;
+    
+}
+.child-1 p{
+    color: #6c6969;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+
+}
+ .child-2{
+    width:50%;
+ }
+.child-2 img{
+    object-fit:cover;
+     width:100%;
+}
+
+.parent-2{
+    width:100%;
+    display:flex;
+    gap:4.8rem;
+    margin-top:50px;
+  
+}
+.parent-2 .parent-2-imge{
+  width:50%;
+}
+.parent-2 img{
+width:100%;
+object-fit:cover;
+}
+.relation{
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+    
+    width:50%;
+    
+
+}
+.relation-response{
+     display:flex;
+    flex-direction:column;
+    gap:4rem;
+}
+
+.relation .text-1{
+    justify-content: center;
+    font-family: MADE Okine Sans PERSONAL USE,sans-serif;
+    font-size: 2.7rem;
+    line-height: 3.4rem;
+    font-weight:600;
+}
+.span-1{
+    color:rgb(255,180,42);
+}
+.common-text{
+    color: #6c6969;
+    font-family: Mulish,sans-serif;
+    font-size: 1.33rem;
+    font-weight: 600;
+    line-height: 1.667rem;
+}
+.common-span{
+    color:#262626;
+}
+.visuals{
+    
+    width:95%;
+    display:flex;
+    gap:40px;
+
+}
+.common{
+    width:180px;
+    padding:12px;
+    border-radius:20px;
+    color:black;
+    box-shadow: 1px 1px 2px 2px gray;
+    text-align:center;
+    font-size:25px;
+
+    
+
+}
+.common p{
+    margin-left:13%;
+    margin-top:12%;
+    font-weight:600;
+}
+@media(max-width:768px)
+{
+    .parent{
+     flex-direction:column;
+     justify-content:center;
+     text-align:center;
+     
+    }
+    .child-1{
+        width: 100%;
+    }
+    .child-2{
+        width: 100%;
+    }
+    .parent-2{
+        flex-direction:column-reverse;
+        justify-content:center;
+        text-align:center;
+    }
+    .relation{
+        width:100%;
+    }
+   .parent-2 .parent-2-imge{
+        width:100%;
+    } 
+    .parent-2-imge img{
+        width:100%;
+        object-fit:cover;
+    }
+    .relation{
+        display:flex;
+        flex-direction:row-reverse;
+        
+    }
+    .visuals{
+        flex-direction:column;
+        margin-top:80px;
+        padding:40px;
+    }
+
+
+
+}
+@media(max-width:500px)
+{
+    .relation{
+        width:100%;
+    }
+  /*  .relation .text-1{
+    justify-content: center;
+    font-family: MADE Okine Sans PERSONAL USE,sans-serif;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight:600;
+}
+    */
+    .visuals{
+   display:none;
+    }
+
+}
+
+
+
+
